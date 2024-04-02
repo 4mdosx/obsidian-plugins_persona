@@ -1,0 +1,10 @@
+{
+	"id": "persona",
+	"name": "Persona",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "task manager plugin for Obsidian",
+	"author": "4mdosx",
+	"authorUrl": "https://github.com/4mdosx",
+	"isDesktopOnly": true
+}

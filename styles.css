@@ -1,0 +1,44 @@
+.plugins-view.persona {
+  background-color: var(--background-secondary);
+}
+
+.plugins-view.persona .main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 80px);
+}
+
+.plugins-view.persona .timer-holder {
+  height: 100px;
+}
+
+
+.plugins-view.persona .button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0;
+  gap: 0 10px;
+}
+
+.plugins-view.persona .timer {
+  display: flex;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.plugins-view.persona .rest-time .timer {
+  color: var(--atom-green);
+}
+
+.plugins-view.persona button {
+  cursor: pointer;
+}
+
+.plugins-view.persona footer {
+  position: fixed;
+  bottom: 30px;
+  font-size: 20px;
+  letter-spacing: .1em;
+}
